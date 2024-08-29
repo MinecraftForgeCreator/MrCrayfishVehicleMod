@@ -14,7 +14,7 @@ buildscript {
 apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'maven-publish'
 
-version = "0.45.2-1.16.5"
+version = "0.45.2-1.21"
 group = "com.mrcrayfish"
 archivesBaseName = "vehicle-mod"
 
@@ -74,7 +74,7 @@ repositories {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.16.5-36.2.20'
+    minecraft 'net.minecraftforge:"1.21-51.0.33"
 
     compile fg.deobf('curse.maven:obfuscate-289380:3336021')
     compile fg.deobf('curse.maven:controllable-317269:3519536')
